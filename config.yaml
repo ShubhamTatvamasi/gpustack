@@ -8,3 +8,9 @@ models:
     model: diffusiongemma-26b-a4b-it
     apiBase: https://gpustack.amd-droplet.shubhamtatvamasi.com/v1
     apiKey: $GPUSTACK_API_KEY
+
+  - name: Qwen3 Reranker 0.6B
+    provider: openai
+    model: qwen3-reranker-0.6b
+    apiBase: https://gpustack.nvidia-droplet.shubhamtatvamasi.com/v1
+    apiKey: $GPUSTACK_API_KEY
