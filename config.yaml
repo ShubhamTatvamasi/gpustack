@@ -1,0 +1,10 @@
+name: GPUStack
+version: 0.0.1
+schema: v1
+
+models:
+  - name: DiffusionGemma 26B A4B IT
+    provider: openai
+    model: diffusiongemma-26b-a4b-it
+    apiBase: https://gpustack.amd-droplet.shubhamtatvamasi.com/v1
+    apiKey: $GPUSTACK_API_KEY
